@@ -58,7 +58,7 @@ exports.generateAndSaveFoodAI = catchAsyncErrors(async(req,res) =>{
     })
 })
 
-exports.analyzeRestaurantReviews = catchAsync(async(req,res) =>{
+exports.analyzeRestaurantReviews = catchAsyncErrors(async(req,res) =>{
     try{
           const {id} = req.params;
           const restaurant = await Restaurant.findById(id);
