@@ -1,4 +1,4 @@
-# OrderIt – Food Delivery Platform
+# FoodGenie – Food Delivery Platform
 
 A full-stack food ordering platform built with the MERN stack (MongoDB, Express, React, Node.js). Users can browse restaurants, view menus, manage a cart, and checkout via Stripe. Includes AI-powered dish descriptions and restaurant review analysis using Groq (LLaMA 3.1).
 
